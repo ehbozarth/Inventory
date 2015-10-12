@@ -18,7 +18,9 @@ public class Inventory {
         while (true) {
 
             int counter = 1;
+
             System.out.println("Here is a list of items:");
+
             for (Item item : inventory) {
                 System.out.println(counter + ". [" + item.quantity + "] " + item.name);
                 counter++;
