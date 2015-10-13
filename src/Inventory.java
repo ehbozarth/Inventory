@@ -63,7 +63,6 @@ public class Inventory {
                 }//Only adds item if the category is found
 
 
-
             }//End of choice 1
             else if (choiceNum == 2) {
                 System.out.println("Enter in the list number of the item you would like removed:");
